@@ -8,11 +8,11 @@ export default function Start() {
   return (
     <main>
       <h1>Start</h1>
-      <button onClick={() => setConsole('NCAA')}>
-        <Link href="/ncaa">
+      <Link href="/ncaa">
+        <button>
           <h3>Start in NCAA</h3>
-        </Link>
-      </button>
+        </button>
+      </Link>
       <br />
       <button onClick={() => setConsole('Europe')}>
         <h3>Start in Europe</h3>

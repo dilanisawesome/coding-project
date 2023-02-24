@@ -8,6 +8,10 @@ export default function NCAA() {
   return (
     <main>
       <h1>NCAA</h1>
+      <p>
+        You've chosen to start in the NCAA. You are a D1 Point Guard Recruit out
+        of the University of Michigan.
+      </p>
       <Footer />
     </main>
   );
