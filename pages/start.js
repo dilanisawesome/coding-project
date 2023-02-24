@@ -1,5 +1,6 @@
 import Footer from '../components/Footer';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function Start() {
   const [console, setConsole] = useState('');
@@ -8,13 +9,15 @@ export default function Start() {
     <main>
       <h1>Start</h1>
       <button onClick={() => setConsole('NCAA')}>
-        <h3>Start in NCAA</h3>
+        <Link href="/ncaa">
+          <h3>Start in NCAA</h3>
+        </Link>
       </button>
-      <p>Console: {console}</p>
       <br />
-      <button>
+      <button onClick={() => setConsole('Europe')}>
         <h3>Start in Europe</h3>
       </button>
+      <p>Console: {console}</p>
       <br />
       <Footer />
     </main>
