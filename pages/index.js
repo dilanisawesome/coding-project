@@ -11,7 +11,9 @@ export default function Home() {
       </Head>
       <main>
         <h1>Welcome</h1>
-        <Button link="/start" />
+        <Link href="/start">
+          <Button text="Start" />
+        </Link>
       </main>
     </div>
   );
