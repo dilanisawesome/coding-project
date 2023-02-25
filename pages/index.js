@@ -10,7 +10,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <main>
-        <h1>Welcome</h1>
+        <h1>PATH TO THE NBA</h1>
         <Link href="/start">
           <Button text="Start" />
         </Link>
